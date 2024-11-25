@@ -2,8 +2,8 @@
 .contenedor{
     display: flex;
     width: 90%;
-    background-color: rgba(213, 200, 200, 0.352);
-    gap: 10%;
+    background-color: rgba(220, 220, 220, 0.352);
+    gap: 10px;
     height: 500px;
     align-items: center;
     justify-content: center;
@@ -11,20 +11,21 @@
 .tarjetas{
     background-color: white;
     width: 25%;
-    height: 400px;
-    padding: 10px;
+    height: 370px;
+   
     margin: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
+   
 }
 img{
     width: 150px;
    
 }
 .img2{
-    background-color: rgba(213, 200, 200, 0.352) ;
+margin-top: 10px;
     width: 80%;
     display: flex;
     justify-content: center;
@@ -32,16 +33,65 @@ img{
     margin-left: 20px;
 }
 .tenis{
-    width: 200px;
+    width: 189px;
 }
 .precio{
-    background-color: blue;
+    color: rgb(37, 37, 94);
+    font-size: 18px;
+    font-weight: bold;
+
 }
 .tarjetas:hover .precio{
-    background-color: aliceblue;
+    color: rgb(255, 0, 0);
 }
 
+.contenedor1{
+    background-color: white;
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    
+}
+.azul{
+    background-color:rgb(37, 37, 94) ;
+    width: 100%;
+    height: 30px;
+    color: white;
+    text-align: center;
+    padding-top: 3px;
+}
 
+.tarjetas:hover .azul{
+    background-color: red;
+}
+.polo{
+   height: 180px;
+}
+.marron{
+    background-color: chocolate;
+    width: 100%;
+   height: 40px;
+    color: white;
+    text-align: center;
+    padding-top: 3px;
+}
+.tarjetas:hover .marron{
+    background-color: red;
+}
+a{
+    text-decoration: none;
 
-label{ color:grey;}
-input[type = "radio"]{ display:none;}
+}
+p{
+    width: 90%;
+    padding-left: 10px;
+}
+.marronsito{
+    color: chocolate;  
+}
+.estrellitas{
+    color: #FFD700; 
+    font-size: 16px;
+}

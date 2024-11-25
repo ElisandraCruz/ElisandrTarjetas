@@ -1,0 +1,47 @@
+
+.contenedor{
+    display: flex;
+    width: 90%;
+    background-color: rgba(213, 200, 200, 0.352);
+    gap: 10%;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+.tarjetas{
+    background-color: white;
+    width: 25%;
+    height: 400px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+img{
+    width: 150px;
+   
+}
+.img2{
+    background-color: rgba(213, 200, 200, 0.352) ;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 20px;
+}
+.tenis{
+    width: 200px;
+}
+.precio{
+    background-color: blue;
+}
+.tarjetas:hover .precio{
+    background-color: aliceblue;
+}
+
+
+
+label{ color:grey;}
+input[type = "radio"]{ display:none;}
